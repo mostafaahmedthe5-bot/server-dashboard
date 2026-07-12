@@ -1,2 +1,40 @@
-# server-dashboard
-Server Health Dashboard is a Bash script that provides a quick overview of a Linux system by displaying CPU, memory, disk, network, and system information in a clean terminal dashboard. The project helped me practice Linux commands, shell scripting, and system monitoring basics.
+# Server Health Dashboard
+
+A simple Bash script that displays important Linux system information in a clean terminal dashboard.
+
+## Features
+- Display hostname and current user
+- Show current date and time
+- Display CPU information
+- Display memory usage
+- Display disk usage
+- Show top running processes
+- Display network information
+- Show system uptime
+- Display logged-in users count
+- Show total running processes
+- Display Linux kernel version
+
+## Technologies Used
+- Bash Shell Scripting
+- Linux Command Line
+- System Monitoring Commands
+
+## Commands Used
+- hostname
+- whoami
+- date
+- df
+- ps
+- netstat
+- uname
+- wc
+- who
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd server-health-dashboard
